@@ -1,0 +1,65 @@
+package com.company;
+import java.text.DateFormat;
+
+public class Vehicle {
+
+    private String id;
+    private float price;
+    private Color color;
+    private Make make;
+    private String model, registration;
+    private DateFormat year;
+
+    public Vehicle(String _id){
+        id = _id;
+    }
+
+    public String getId(){
+        return id;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+    public void setColor(Color newColor) {
+        color = newColor;
+    }
+
+    public Make getMake() {
+        return make;
+    }
+    public void setMake(Make newMake) {
+        make = newMake;
+    }
+
+    public String getRegistration() {
+        return registration;
+    }
+    public void setRegistration(String newRegistration) {
+        this.registration = newRegistration;
+    }
+
+    public String getModel() {
+        return model;
+    }
+    public void setModel(String newModel) {
+        this.model = newModel;
+    }
+
+    public DateFormat getYear() {
+        return year;
+    }
+    public void setYear(DateFormat newYear) {
+        this.year = newYear;
+    }
+
+    public float getPrice() {
+        return price;
+    }
+    public void setCPrice(float newPrice) {
+        this.price = newPrice;
+    }
+
+}
+
+
